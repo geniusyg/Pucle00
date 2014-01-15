@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5199B3FB1886FD06004D09B3 /* 1531802_598925360160554_1948689706_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5199B3FA1886FD06004D09B3 /* 1531802_598925360160554_1948689706_n.jpg */; };
+		5182F7EB1886FDD2003D6DCA /* yungi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5182F7EA1886FDD2003D6DCA /* yungi.jpg */; };
 		51AE65121886D7A4002CC27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE65111886D7A4002CC27B /* Foundation.framework */; };
 		51AE65141886D7A4002CC27B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE65131886D7A4002CC27B /* CoreGraphics.framework */; };
 		51AE65161886D7A4002CC27B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE65151886D7A4002CC27B /* UIKit.framework */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5199B3FA1886FD06004D09B3 /* 1531802_598925360160554_1948689706_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1531802_598925360160554_1948689706_n.jpg; sourceTree = "<group>"; };
+		5182F7EA1886FDD2003D6DCA /* yungi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yungi.jpg; sourceTree = "<group>"; };
 		51AE650E1886D7A4002CC27B /* Pucle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pucle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AE65111886D7A4002CC27B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51AE65131886D7A4002CC27B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,7 +131,7 @@
 		51AE65171886D7A4002CC27B /* Pucle */ = {
 			isa = PBXGroup;
 			children = (
-				5199B3FA1886FD06004D09B3 /* 1531802_598925360160554_1948689706_n.jpg */,
+				5182F7EA1886FDD2003D6DCA /* yungi.jpg */,
 				51AE65201886D7A4002CC27B /* AppDelegate.h */,
 				51AE65581886F89F002CC27B /* Default.png */,
 				51AE65211886D7A4002CC27B /* AppDelegate.m */,
@@ -257,11 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5182F7EB1886FDD2003D6DCA /* yungi.jpg in Resources */,
 				51AE65591886F89F002CC27B /* Default.png in Resources */,
 				51AE652A1886D7A4002CC27B /* Images.xcassets in Resources */,
 				51AE651C1886D7A4002CC27B /* InfoPlist.strings in Resources */,
 				51AE65571886F84B002CC27B /* Default-568h@2x.png in Resources */,
-				5199B3FB1886FD06004D09B3 /* 1531802_598925360160554_1948689706_n.jpg in Resources */,
 				51AE65251886D7A4002CC27B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
