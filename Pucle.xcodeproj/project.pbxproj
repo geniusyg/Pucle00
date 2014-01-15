@@ -21,6 +21,13 @@
 		51AE65331886D7A5002CC27B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE65151886D7A4002CC27B /* UIKit.framework */; };
 		51AE653B1886D7A5002CC27B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51AE65391886D7A5002CC27B /* InfoPlist.strings */; };
 		51AE653D1886D7A5002CC27B /* PucleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AE653C1886D7A5002CC27B /* PucleTests.m */; };
+		51AE65471886E214002CC27B /* 1531802_598925360160554_1948689706_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51AE65461886E214002CC27B /* 1531802_598925360160554_1948689706_n.jpg */; };
+		51AE654A1886E9A3002CC27B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AE65491886E9A3002CC27B /* HomeViewController.m */; };
+		51AE654D1886EC97002CC27B /* Friends00ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AE654C1886EC97002CC27B /* Friends00ViewController.m */; };
+		51AE65501886F3B5002CC27B /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AE654F1886F3B5002CC27B /* NoticeViewController.m */; };
+		51AE65531886F4F3002CC27B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AE65521886F4F3002CC27B /* SettingsViewController.m */; };
+		51AE65571886F84B002CC27B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE65561886F84B002CC27B /* Default-568h@2x.png */; };
+		51AE65591886F89F002CC27B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE65581886F89F002CC27B /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,17 @@
 		51AE65381886D7A5002CC27B /* PucleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PucleTests-Info.plist"; sourceTree = "<group>"; };
 		51AE653A1886D7A5002CC27B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51AE653C1886D7A5002CC27B /* PucleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PucleTests.m; sourceTree = "<group>"; };
+		51AE65461886E214002CC27B /* 1531802_598925360160554_1948689706_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1531802_598925360160554_1948689706_n.jpg; sourceTree = "<group>"; };
+		51AE65481886E9A3002CC27B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		51AE65491886E9A3002CC27B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		51AE654B1886EC97002CC27B /* Friends00ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends00ViewController.h; sourceTree = "<group>"; };
+		51AE654C1886EC97002CC27B /* Friends00ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends00ViewController.m; sourceTree = "<group>"; };
+		51AE654E1886F3B5002CC27B /* NoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeViewController.h; sourceTree = "<group>"; };
+		51AE654F1886F3B5002CC27B /* NoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeViewController.m; sourceTree = "<group>"; };
+		51AE65511886F4F3002CC27B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		51AE65521886F4F3002CC27B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		51AE65561886F84B002CC27B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		51AE65581886F89F002CC27B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,7 @@
 		51AE65051886D7A4002CC27B = {
 			isa = PBXGroup;
 			children = (
+				51AE65561886F84B002CC27B /* Default-568h@2x.png */,
 				51AE65171886D7A4002CC27B /* Pucle */,
 				51AE65361886D7A5002CC27B /* PucleTests */,
 				51AE65101886D7A4002CC27B /* Frameworks */,
@@ -112,13 +131,23 @@
 		51AE65171886D7A4002CC27B /* Pucle */ = {
 			isa = PBXGroup;
 			children = (
+				51AE65461886E214002CC27B /* 1531802_598925360160554_1948689706_n.jpg */,
 				51AE65201886D7A4002CC27B /* AppDelegate.h */,
+				51AE65581886F89F002CC27B /* Default.png */,
 				51AE65211886D7A4002CC27B /* AppDelegate.m */,
 				51AE65231886D7A4002CC27B /* Main.storyboard */,
 				51AE65261886D7A4002CC27B /* ViewController.h */,
 				51AE65271886D7A4002CC27B /* ViewController.m */,
 				51AE65291886D7A4002CC27B /* Images.xcassets */,
 				51AE65181886D7A4002CC27B /* Supporting Files */,
+				51AE65481886E9A3002CC27B /* HomeViewController.h */,
+				51AE65491886E9A3002CC27B /* HomeViewController.m */,
+				51AE654B1886EC97002CC27B /* Friends00ViewController.h */,
+				51AE654C1886EC97002CC27B /* Friends00ViewController.m */,
+				51AE654E1886F3B5002CC27B /* NoticeViewController.h */,
+				51AE654F1886F3B5002CC27B /* NoticeViewController.m */,
+				51AE65511886F4F3002CC27B /* SettingsViewController.h */,
+				51AE65521886F4F3002CC27B /* SettingsViewController.m */,
 			);
 			path = Pucle;
 			sourceTree = "<group>";
@@ -228,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AE65471886E214002CC27B /* 1531802_598925360160554_1948689706_n.jpg in Resources */,
+				51AE65591886F89F002CC27B /* Default.png in Resources */,
 				51AE652A1886D7A4002CC27B /* Images.xcassets in Resources */,
 				51AE651C1886D7A4002CC27B /* InfoPlist.strings in Resources */,
+				51AE65571886F84B002CC27B /* Default-568h@2x.png in Resources */,
 				51AE65251886D7A4002CC27B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AE654D1886EC97002CC27B /* Friends00ViewController.m in Sources */,
 				51AE65281886D7A4002CC27B /* ViewController.m in Sources */,
 				51AE65221886D7A4002CC27B /* AppDelegate.m in Sources */,
 				51AE651E1886D7A4002CC27B /* main.m in Sources */,
+				51AE65501886F3B5002CC27B /* NoticeViewController.m in Sources */,
+				51AE654A1886E9A3002CC27B /* HomeViewController.m in Sources */,
+				51AE65531886F4F3002CC27B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +413,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pucle/Pucle-Prefix.pch";
 				INFOPLIST_FILE = "Pucle/Pucle-Info.plist";
@@ -390,7 +425,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pucle/Pucle-Prefix.pch";
 				INFOPLIST_FILE = "Pucle/Pucle-Info.plist";
